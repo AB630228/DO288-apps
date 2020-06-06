@@ -2,7 +2,7 @@
 FROM quay.io/redhattraining/httpd-parent
 
 LABEL io.k8s.discription="A basic Apache HTTP Server child image, uses ONBUILD"
-      io.k8s.display-name="Apache HTTP"
+      io.k8s.display-name="Apache HTTP Server"
       io.openshift.expose-services="8080:http"
       io.openshift.tags="apache, httpd"
 
